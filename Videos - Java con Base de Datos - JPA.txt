@@ -1,0 +1,18 @@
+https://www.youtube.com/playlist?list=PLgwlfcqa5h3y31yOIPSMM2dFvtF70nBL9
+
+VIDEO DEL EJERCICIO DE LIBRERIA
+https://www.youtube.com/watch?v=dKYhbm4o354
+
+
+----------------------------
+public void limpiarPantalla() throws AWTException {
+        //metodo para ir borrando consola.. video:https://www.youtube.com/watch?v=dKYhbm4o354
+        Robot pressbot = new Robot();
+
+        pressbot.setAutoDelay(30);//tiempo de espara antes de borrar
+        pressbot.keyPress(17);//orden para apretar ctrl key
+        pressbot.keyPress(76);//orden para apretar L key
+        pressbot.keyRelease(17);//orden para soltar ctrl key
+        pressbot.keyRelease(76);//orden para soltar L key
+
+    }
